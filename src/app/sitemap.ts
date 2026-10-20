@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/",
     "/learn",
     "/practice",
+    "/sheet",
     "/about",
     ...cat.tracks.map((t) => `/learn/${t.id}`),
     ...Object.values(cat.lessons).map((l) => `/learn/${l.track}/${l.slug}`),

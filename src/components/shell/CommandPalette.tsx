@@ -76,6 +76,7 @@ export function CommandPalette() {
     const actions: Item[] = [
       { id: "a-theme", title: state.prefs.theme === "paper" ? "Switch to walnut theme" : "Switch to paper theme", meta: "Action", run: () => setPref("theme", state.prefs.theme === "paper" ? "dark" : "paper"), score: 1 },
       { id: "a-practice", title: "Practice ladder", meta: "Go to", href: "/practice", score: 1 },
+      { id: "a-sheet", title: "Interview sheet", meta: "Go to", href: "/sheet", score: 1 },
       { id: "a-review", title: "Review flashcards", meta: "Go to", href: "/review", score: 1 },
       { id: "a-notebook", title: "My notebook", meta: "Go to", href: "/notebook", score: 1 },
     ];

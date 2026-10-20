@@ -12,6 +12,7 @@ import s from "./shell.module.css";
 const LINKS = [
   { href: "/learn", label: "Learn" },
   { href: "/practice", label: "Practice" },
+  { href: "/sheet", label: "Sheet" },
   { href: "/review", label: "Review" },
   { href: "/notebook", label: "Notebook" },
 ];
